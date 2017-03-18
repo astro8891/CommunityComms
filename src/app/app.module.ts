@@ -10,6 +10,8 @@ import { OrganisationSignupComponent } from './OrganisationSignup/organisation-s
 import { VolunteerQueryComponent } from './Volunteer-query/volunteer-query.component'
 import { VolunteerListComponent } from
 './VolunteerList/volunteer-list.component'
+import { JobListComponent } from
+'./JobList/job-list.component'
 
 @NgModule({
   imports: [BrowserModule,
@@ -17,7 +19,7 @@ import { VolunteerListComponent } from
     HttpModule],
 
   declarations: [AppComponent,
-    VolunteerSignupComponent, JobSignupComponent, OrganisationSignupComponent, VolunteerQueryComponent, VolunteerListComponent],
+    VolunteerSignupComponent, JobSignupComponent, OrganisationSignupComponent, VolunteerQueryComponent, VolunteerListComponent, JobListComponent],
 
   bootstrap: [AppComponent]
 })
