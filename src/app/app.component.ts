@@ -17,10 +17,10 @@ import { JobListComponent } from './JobList/job-list.component'
   selector: 'my-app',
   template:'<router-outlet></router-outlet>'
   // templateUrl: './app/app.component.html',
-  //template:'<VolunteerQuery></VolunteerQuery>'
+   //template:'<VolunteerQuery></VolunteerQuery>'
   //template:'<VolunteerSignup></VolunteerSignup>'
   //template:'<JobSignup></JobSignup>'
-  //template:'<VolunteerList></VolunteerList>'
+  // template:'<VolunteerList></VolunteerList>'
   //template:'<JobList></JobList>'
 })
 
