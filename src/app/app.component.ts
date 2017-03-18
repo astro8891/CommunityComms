@@ -8,7 +8,10 @@ import { JobsSignupComponent } from
   selector: 'my-app',
   // templateUrl: './app/app.component.html',
   
-  template:'<JobsSignup></JobsSignup>'
+  //VolunteerSignup
+  //JobsSignup
+
+  template:'<VolunteerSignup></VolunteerSignup>'
 
 })
 export class AppComponent {}
