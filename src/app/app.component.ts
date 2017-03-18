@@ -20,10 +20,8 @@ import { JobListComponent } from './JobList/job-list.component'
   //template:'<VolunteerQuery></VolunteerQuery>'
   //template:'<VolunteerSignup></VolunteerSignup>'
   //template:'<JobSignup></JobSignup>'
-  // template:'<VolunteerList></VolunteerList>'
+  //template:'<VolunteerList></VolunteerList>'
   //template:'<JobList></JobList>'
-
 })
 
 export class AppComponent {}
-
