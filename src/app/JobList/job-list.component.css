@@ -1,13 +1,56 @@
-button{
+a {
+  color: #008080;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #F26629;
+}
+
+button {
   margin: 10px 0 10px 0;
   color: #ffffff;
   background: #008080;
 }
-button:hover{
+button:hover {
   color: #000000;
   background: #ffffff;
   border-color: #008080;
 }
-.centerButton{
-  margin-top: 14px;
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.page-title {
+  padding: 30px 0;
+  color: #008080;
+}
+
+.form-selectors {
+  margin-bottom: 20px;
+}
+
+.form-selectors label {
+  padding-bottom: 5px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.thead-default {
+  background-color: #E6E6E6;
+}
+
+.add-a-link {
+  float: right;
+}
+
+.add-a-link a {
+  padding-left: 10px;
+}
+
+.add-a-link .glyphicon-plus-sign {
+  margin-right: 5px;
 }
