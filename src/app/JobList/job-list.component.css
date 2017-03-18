@@ -8,3 +8,6 @@ button:hover{
   background: #ffffff;
   border-color: #008080;
 }
+.centerButton{
+  margin-top: 14px;
+}
