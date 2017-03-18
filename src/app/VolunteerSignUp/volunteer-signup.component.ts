@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'VolunteerSignup',
   templateUrl: 'volunteer-signup.component.html',
-  styleUrls: ['']
+  styleUrls: ['volunteer-signup.component.css']
 })
 
 
