@@ -1,4 +1,4 @@
-<div class= "container">
+<div class= "container-fluid">
 
   <div class="row navbar">
 
@@ -6,86 +6,88 @@
 
   </div>
 
-  <div class="row">
-    <h1 class="page-title">Jobs</h1>
-  </div>
+  <div class="main-content">
 
-
-  <div class="row form-selectors">
     <div class="row">
-      <label for="exampleSelect1" class="col-md-3">Job Location</label>
-      <label for="exampleSelect2" class="col-md-3">Job Status</label>
+      <h1 class="page-title">Jobs</h1>
     </div>
 
-    <div class="row">
-      <div class="form-group col-md-3">
-        <select class="form-control" id="exampleSelect1">
-          <option>Auckland</option>
-          <option>Christchurch</option>
-          <option>Wellington</option>
-        </select>
+    <div class="row form-selectors">
+      <div class="row">
+        <label for="exampleSelect1" class="col-md-3">Job Location</label>
+        <label for="exampleSelect2" class="col-md-3">Job Status</label>
       </div>
 
-    	<div class="form-group col-md-3">
-      	<select class="form-control" id="exampleSelect2">
-         	  <option>Open</option>
-        	  <option>In Progress</option>
-        	  <option>Closed</option>
-      	</select>
-    	</div>
+      <div class="row">
+        <div class="form-group col-md-3">
+          <select class="form-control" id="exampleSelect1">
+            <option>Auckland</option>
+            <option>Christchurch</option>
+            <option>Wellington</option>
+          </select>
+        </div>
 
-      <button type="button" class="btn btn-primary col-md-2 centerButton">Filter List</button>
+      	<div class="form-group col-md-3">
+        	<select class="form-control" id="exampleSelect2">
+           	  <option>Open</option>
+          	  <option>In Progress</option>
+          	  <option>Closed</option>
+        	</select>
+      	</div>
+
+        <button type="button" class="btn btn-primary centerButton col-md-2">Filter List</button>
+      </div>
     </div>
+
+
+  	<div class="row">
+      <div class="add-a-link">
+        <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add a job</a>
+        <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add an organisation</a>
+      </div>
+
+      <table class="table table-striped">
+  	  <thead class="thead-default">
+  	    <tr>
+  	      <th>Job Title</th>
+  	      <th>Charity</th>
+  	      <th>Job Location</th>
+  	      <th>Job Status</th>
+  	      <th>Open Date</th>
+  	      <th>Closed Date</th>
+  	      <th>Assign Volunteers</th>
+  	    </tr>
+  	  </thead>
+
+  	  <tbody>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	  </tbody>
+  	</table>
   </div>
-
-
-	<div class="row">
-    <div class="add-a-link">
-      <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add a job</a>
-      <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add an organisation</a>
-    </div>
-
-    <table class="table table-striped">
-	  <thead class="thead-default">
-	    <tr>
-	      <th>Job Title</th>
-	      <th>Charity</th>
-	      <th>Job Location</th>
-	      <th>Job Status</th>
-	      <th>Open Date</th>
-	      <th>Closed Date</th>
-	      <th>Assign Volunteers</th>
-	    </tr>
-	  </thead>
-
-	  <tbody>
-	    <tr>
-	      <th scope="row"><a href="#">[job name]</a></th>
-	      <td>[charity]</td>
-	      <td>[job location]</td>
-	      <td>[job status]</td>
-	      <td>[open date]</td>
-	      <td>[closed date]</td>
-	      <td><a href="#">Assign volunteers to this job</a></td>
-	    </tr>
-	    <tr>
-	      <th scope="row"><a href="#">[job name]</a></th>
-	      <td>[charity]</td>
-	      <td>[job location]</td>
-	      <td>[job status]</td>
-	      <td>[open date]</td>
-	      <td>[closed date]</td>
-	      <td><a href="#">Assign volunteers to this job</a></td>
-	    </tr>
-	    <tr>
-	      <th scope="row"><a href="#">[job name]</a></th>
-	      <td>[charity]</td>
-	      <td>[job location]</td>
-	      <td>[job status]</td>
-	      <td>[open date]</td>
-	      <td>[closed date]</td>
-	      <td><a href="#">Assign volunteers to this job</a></td>
-	    </tr>
-	  </tbody>
-	</table>
 </div>
