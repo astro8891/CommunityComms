@@ -9,8 +9,9 @@ import { OrganisationSignupComponent } from
 @Component({
   selector: 'my-app',
   // templateUrl: './app/app.component.html',
-  
   template:'<OrganisationSignup></OrganisationSignup>'
+  //template:'<VolunteerSignup></VolunteerSignup>'
+  //template:'<JobSignup></JobSignup>'
 
 })
 export class AppComponent {}

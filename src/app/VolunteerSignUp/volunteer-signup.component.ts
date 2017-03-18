@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { volunteer } from './volunteer'
 import { volunteerService } from './volunteer-signup.service'
@@ -29,6 +30,10 @@ export class VolunteerSignupComponent {
   typesOfOrganisationsInterestedIn = "";
   typesOfOrganisationsNotInterestedIn = "";
   notes = "";
+
+  doesBindingWork(){
+    console.log(this.name)
+  }
 
  putVolunteerDetails() {
     
