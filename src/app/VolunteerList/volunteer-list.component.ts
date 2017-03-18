@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { volunteer } from '../VolunteerSignUp/volunteer' 
-import { volunteerService } from './volunteer-list.service'
+import { volunteerListService } from './volunteer-list.service'
 
 
 @Component({
