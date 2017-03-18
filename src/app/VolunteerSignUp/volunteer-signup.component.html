@@ -3,22 +3,22 @@
     <form class="volunteer">
         <div class="form-group has-danger">
             <label for="name">Name</label>
-            <input [(ngModel)]="name" name="something" aria-describedby="" class="form-control" id="" placeholder="Enter first and last name"
+            <input [(ngModel)]="name" name="name" aria-describedby="" class="form-control" id="" placeholder="Enter first and last name"
                 type="text" required="required">
         </div>
         <div class="form-group has-danger">
             <label for="phone">Phone</label> 
-            <input [(ngModel)]="phone" aria-describedby="" class="form-control" id="" placeholder="123 9854137"
+            <input [(ngModel)]="phone" aria-describedby="" class="form-control" id="" name="phone" placeholder="123 9854137"
                 type="text" required>
         </div>
         <div class="form-group has-danger">
             <label for="email">Email</label> 
-            <input [(ngModel)]="email" aria-describedby="" class="form-control" id="" placeholder="Enter your email"
+            <input [(ngModel)]="email" aria-describedby="" class="form-control" id="" name="email" placeholder="Enter your email"
                 type="text"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group has-danger">
             <label for="yearsExperience">Years of experience</label> 
-            <select [(ngModel)]="selectedValue" class="form-control" id="yearsExperience">
+            <select [(ngModel)]="selectedValue" name="years" class="form-control" id="yearsExperience">
   				<option>
   					0-5 years
   				</option>
