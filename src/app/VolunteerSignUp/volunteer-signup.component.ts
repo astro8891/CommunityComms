@@ -30,6 +30,9 @@ export class VolunteerSignupComponent {
   typesOfOrganisationsNotInterestedIn = "";
   notes = "";
 
-  
+ putVolunteerDetails() {
+    
+
+  }
 
 }
