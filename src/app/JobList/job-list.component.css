@@ -27,10 +27,6 @@ button:hover {
   color: #008080;
 }
 
-.form-selectors {
-  margin-bottom: 20px;
-}
-
 .form-selectors label {
   padding-bottom: 5px;
 }
@@ -39,12 +35,14 @@ button:hover {
   margin: 10px 0;
 }
 
-.thead-default {
-  background-color: #E6E6E6;
+.centerButton:hover {
+  background-color: #004646;
+  color: #FFF;
 }
 
 .add-a-link {
   float: right;
+  padding: 10px 0;
 }
 
 .add-a-link a {
@@ -53,4 +51,18 @@ button:hover {
 
 .add-a-link .glyphicon-plus-sign {
   margin-right: 5px;
+}
+
+.thead-default {
+  background-color: #E6E6E6;
+}
+
+.table > tbody > tr > th {
+  min-height: 40px;
+  border-top: 0;
+  font-weight: 400;
+}
+.table > tbody > tr > td {
+  min-height: 40px;
+  border-top: 0;
 }
