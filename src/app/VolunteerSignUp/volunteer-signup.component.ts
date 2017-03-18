@@ -30,14 +30,12 @@ export class VolunteerSignupComponent {
   typesOfOrganisationsInterestedIn = "";
   typesOfOrganisationsNotInterestedIn = "";
   notes = "";
+  id: number = null;
 
   doesBindingWork(){
     console.log(this.name)
   }
 
- putVolunteerDetails() {
-    
-
-  }
+ 
 
 }
