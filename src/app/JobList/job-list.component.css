@@ -1,30 +1,13 @@
-.container{
-  width: 50%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
-h1{
-  color:#008080;
-}
-form input{
-  background: #f7f7f7;
-}
-form textarea{
-  background: #f7f7f7;
-  resize: vertical;
-}
-form textarea:focus, input:focus{
-  background: #ffffff;
-}
 button{
   margin: 10px 0 10px 0;
+  color: #ffffff;
   background: #008080;
 }
 button:hover{
   color: #000000;
-  background: #ffffff
+  background: #ffffff;
+  border-color: #008080;
 }
-
-.form-group, .form-control, label {
-  margin: 10px 0 0 0;
+.centerButton{
+  margin-top: 14px;
 }
