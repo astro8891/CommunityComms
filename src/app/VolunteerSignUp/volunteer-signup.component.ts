@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { volunteer } from './volunteer'
+import { volunteerService } from './volunteer-signup.service'
 
 
 @Component({
@@ -27,5 +29,7 @@ export class VolunteerSignupComponent {
   typesOfOrganisationsInterestedIn = "";
   typesOfOrganisationsNotInterestedIn = "";
   notes = "";
+
+  
 
 }
