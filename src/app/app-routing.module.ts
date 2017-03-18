@@ -20,7 +20,8 @@ const appRoutes: Routes = [
     { path: 'VolunteerList', component: VolunteerListComponent },
     { path: 'JobSignup', component: JobSignupComponent },
     { path: 'JobList', component: JobListComponent },
-    { path: 'OrginisationSignup', component: OrganisationSignupComponent }
+    { path: 'OrginisationSignup', component: OrganisationSignupComponent },
+    { path: '', redirectTo: '/VolunteerList', pathMatch: 'full'}
 ];
 
 @NgModule({
