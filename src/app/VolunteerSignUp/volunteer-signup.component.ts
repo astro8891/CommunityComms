@@ -10,4 +10,22 @@ import { Component } from '@angular/core';
 })
 
 
-export class VolunteerSignupComponent {}
+export class VolunteerSignupComponent {
+
+  name = "";
+  phone: Number = null;
+  email = "";
+  joinedDate: Date = null;
+  location = "";
+  suburb = "";
+  skills = "";
+  areasOfInterest = "";
+  yearsOfExperience: Number = null;
+  levelOfExperience = "";
+  whenAvailable = "";
+  timeOfDayAvailable = "";
+  typesOfOrganisationsInterestedIn = "";
+  typesOfOrganisationsNotInterestedIn = "";
+  notes = "";
+
+}
