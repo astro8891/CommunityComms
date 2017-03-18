@@ -1,0 +1,19 @@
+.container{
+  width: 50%;
+}
+form input{
+  background: #f7f7f7;
+}
+form textarea{
+  background: #f7f7f7;
+  resize: vertical;
+}
+form textarea:focus, input:focus{
+  background: #ffffff;
+}
+button{
+  margin: 10px 0 10px 0;
+}
+.form-group, .form-control, label {
+  margin: 10px 0 0 0;
+}
