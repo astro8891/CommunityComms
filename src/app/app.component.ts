@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 
+import { VolunteerSignupComponent } from './VolunteerSignup/volunteer-signup.component';
+
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  template:'<VolunteerSignup></VolunteerSignup>'
+  
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {}
