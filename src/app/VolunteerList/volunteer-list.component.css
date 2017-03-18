@@ -1,0 +1,44 @@
+.subheader {
+  padding: 15px;
+  height: 100px;
+  width:100%;
+  background: #E6E6E6;
+  border-bottom: 1px solid #000000;
+}
+
+.volunteerSkills {
+}
+.nav {
+  border-bottom: 1px solid #000000;
+}
+.navbar {
+ display: inline-block;
+ bottom: 0;
+}
+ul  {
+  list-style: none;
+  padding: 0;
+}
+.volunteerSkills li {
+  list-style: none;
+  padding: 2px;
+  margin: 3px;
+  color: #ffffff;
+  background: #008080;
+  display: inline-block;
+}
+button{
+  margin: 10px 0 10px 0;
+  background: #008080;
+}
+button:hover{
+  color: #000000;
+  background: #ffffff
+}
+h1{
+  color:#008080;
+}
+.logo {
+width: 181px;
+height: 100px;
+}

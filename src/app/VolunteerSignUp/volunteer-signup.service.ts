@@ -24,10 +24,12 @@ export class volunteerService {
             .catch(this.handleError)
     }
 
-    putVolunteerDetails() {
+    putVolunteerDetails(volunteer: volunteer) {
 
-        this.headers.append('Content-Type', 'application/json');
-        this.http.put(this.url, JSON.stringify(volunteer), {headers: this.headers})
+console.log(volunteer);
+
+        // this.headers.append('Content-Type', 'application/json');
+        // this.http.put(this.url, JSON.stringify(volunteer), {headers: this.headers})
         // .map(res => res.json());         
             
         }   

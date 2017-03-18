@@ -6,4 +6,7 @@
         "**/*.js": true,
         "**/*.js.map": true
     }
+,
+"vsicons.presets.angular": true,
+"typescript.check.workspaceVersion": false
 }
