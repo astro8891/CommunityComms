@@ -4,7 +4,7 @@ import { VolunteerSignupComponent } from './VolunteerSignup/volunteer-signup.com
 
 @Component({
   selector: 'my-app',
-  template:'<VolunteerSignup></VolunteerSignup>'
-  
+  template: '<VolunteerSignup></VolunteerSignup>'
+
 })
-export class AppComponent {}
+export class AppComponent { }
