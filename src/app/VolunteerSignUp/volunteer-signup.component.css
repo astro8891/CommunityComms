@@ -8,7 +8,6 @@ form textarea{
   background: #f7f7f7;
   resize: vertical;
 }
-
 form textarea:focus, input:focus{
   background: #ffffff;
 }
