@@ -2,8 +2,11 @@ import { Component } from '@angular/core';
 import { } from 'ng2-bootstrap/ng2-bootstrap';
 
 
+import { VolunteerSignupComponent } from './VolunteerSignup/volunteer-signup.component';
+
 @Component({
   selector: 'my-app',
-  templateUrl: './app/app.component.html',
+  template:'<VolunteerSignup></VolunteerSignup>'
+  
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {}
