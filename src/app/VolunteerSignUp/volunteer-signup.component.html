@@ -1,37 +1,12 @@
-<h1>hello this works</h1>
+<div class="container">
 
-<form>
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-    </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <div class="form-group">
-        <label for="exampleInputFile">File input</label>
-        <input type="file" id="exampleInputFile">
-        <p class="help-block">Example block-level help text here.</p>
-    </div>
-    <div class="checkbox">
-        <label>
-      <input type="checkbox"> Check me out
-    </label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</form>
-<br>
-<br>
-<br>
-<br>
-<form>
+<form class="volunteer">
     <div class="form-group has-danger">
         <label for="name">Name</label> <input aria-describedby="" class="form-control" id="" placeholder="Enter first and last name"
             type="num" required="required">
     </div>
     <div class="form-group has-danger">
-        <label for="phone">Phone No</label> <input aria-describedby="" class="form-control" id="" placeholder="027...." type="phone"
+        <label for="phone">Phone</label> <input aria-describedby="" class="form-control" id="" placeholder="123 9854137" type="phone"
             required>
     </div>
     <div class="form-group has-danger">
@@ -73,9 +48,7 @@
   				</option>
   			</select>
     </div>
-    <div class="">
-        <label>Areas of expertise</label>
-    </div>
+    <label>Areas of expertise</label>
     <div class="form-check">
         <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Writing/editing</label>
         <div class="form-check">
@@ -154,7 +127,9 @@
         </div>
     </div>
     <label>Areas you want to volunteer in? </label>
-    <label>It is fine for you to want to volunteer to gain more experience in an area you’re less familiar with.</label>
+    <div class="">
+      <p>It is fine for you to want to volunteer to gain more experience in an area you’re less familiar with.</p>
+  </div>
     <div class="form-check">
         <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Writing/editing</label>
         <div class="form-check">
@@ -235,7 +210,7 @@
 
     <div class="form-group has-danger">
         <label for="exampleSelect1">Approximately what time do you have available for volunteering?</label>
-        <label for="">We offer community organisations a boost – so our assignments are often either a few hours on an ongoing basis (eg mentoring) or more hours for a short period.</label>
+        <p>We offer community organisations a boost – so our assignments are often either a few hours on an ongoing basis (eg mentoring) or more hours for a short period.</p>
         <select class="form-control" id="exampleSelect1">
   				<option>A few hours a week</option>
           <option>A few hours  a fortnight</option>
@@ -253,7 +228,7 @@
   <option>	Outside of work hours</option>
   <option>	During lunch-breaks</option>
   <option>	Flexible</option>
-  
+
   			</select>
     </div>
     <!-- following questions are optional -->
@@ -270,7 +245,10 @@
         <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
     </div>
 
+    <div class="">
 
     <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
 
 </form>
+</div>
