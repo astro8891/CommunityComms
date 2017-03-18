@@ -17,9 +17,9 @@ export class jobListService {
 
     getVolunteer(id: number): Promise<job> {
 
-        let volunteerID = "/" + id;
+        let jobId = "/" + id;
 
-        return this.http.get(encodeURI(this.url + jobID)).toPromise()
+        return this.http.get(encodeURI(this.url + jobId)).toPromise()
             .then(response => response.json() as job)
             .catch(this.handleError)
     }
