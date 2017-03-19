@@ -7,7 +7,7 @@ import { JobEditService } from './job-edit.service'
   moduleId: module.id,
   selector: 'JobEdit',
   templateUrl: 'job-edit.component.html',
-  styleUrls: ['']
+  styleUrls: ['job-edit.component.css']
 })
 
 export class JobEditComponent {
