@@ -1,63 +1,97 @@
-<div class="container">
-    <h1>Job List</h1>
-<div class= "container">
-<div>Placeholder navigation bar</div>
+<div class= "container-fluid">
 
-  <h1>Jobs</h1>
+  <div class="row banner">
 
-<div class="row">
-  <div class="col-md-4">
-  	<div class="form-group">
-        <label for="exampleSelect1">Job Location</label>
-       	 <select class="form-control" id="exampleSelect1">
+    <div class="nav-links">
+      <img class="col-xs-3 logo" src="./ccc-logo.jpg" alt="CommunityComms Logo"/>
+      <h4 class="nav-link"><a href="#">Volunteers</a></h4>
+      <h4 class="nav-link"><a href="#" class="active">Jobs</a></h4>
+    </div>
+
+  </div>
+
+  <div class="main-content">
+
+    <div class="row">
+      <h1 class="page-title">Jobs</h1>
+    </div>
+
+    <div class="row form-selectors">
+      <div class="row">
+        <label for="exampleSelect1" class="col-xs-3">Job Location</label>
+        <label for="exampleSelect2" class="col-xs-3">Job Status</label>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="exampleSelect1">
             <option>Auckland</option>
             <option>Christchurch</option>
             <option>Wellington</option>
-         </select>
-    </div>
-  </div>
-  <div class="col-md-4 offset-md-4">
-  	<div class="form-group">
-        <label for="exampleSelect2">Job Status</label>
+          </select>
+        </div>
+
+      	<div class="form-group col-xs-3">
         	<select class="form-control" id="exampleSelect2">
-           	  <option>Open</option>.offset-md-4
+           	  <option>Open</option>
           	  <option>In Progress</option>
           	  <option>Closed</option>
         	</select>
-    	</div>
+      	</div>
+
+        <button type="button" class="btn btn-primary centerButton col-xs-1">Filter List</button>
+      </div>
     </div>
-      <div class="col-md-4 offset-md-4">
-  		<div class="centerButton">
-    		<button type="button" class="btn btn-primary">Filter List</button>
-    	</div>
-    </div>
-</div>
 
 
+  	<div class="row">
+      <div class="add-a-link">
+        <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add a job</a>
+        <a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Add an organisation</a>
+      </div>
 
-	<div><table class="table table-striped">
-	  <thead class="thead-default">
-	    <tr>
-	      <th>Job Title</th>
-	      <th>Charity</th>
-	      <th>Job Location</th>
-	      <th>Job Status</th>
-	      <th>Open Date</th>
-	      <th>Closed Date</th>
-	      <th>Assign Volunteers</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    <tr>
-	      <th scope="row"><a href="#">[job name]</a></th>
-	      <td>[charity]</td>
-	      <td>[job location]</td>
-	      <td>[job status]</td>
-	      <td>[open date]</td>
-	      <td>[closed date]</td>
-	      <td><a href="#">Assign volunteers to this job</a></td>
-	    </tr>
-	  </tbody>
-	</table></div>
+      <table class="table table-striped">
+  	  <thead class="thead-default">
+  	    <tr>
+  	      <th>Job Title</th>
+  	      <th>Charity</th>
+  	      <th>Job Location</th>
+  	      <th>Job Status</th>
+  	      <th>Open Date</th>
+  	      <th>Closed Date</th>
+  	      <th>Assign Volunteers</th>
+  	    </tr>
+  	  </thead>
 
+  	  <tbody>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	    <tr>
+  	      <th scope="row"><a href="#">[job name]</a></th>
+  	      <td>[charity]</td>
+  	      <td>[job location]</td>
+  	      <td>[job status]</td>
+  	      <td>[open date]</td>
+  	      <td>[closed date]</td>
+  	      <td><a href="#">Assign volunteers to this job</a></td>
+  	    </tr>
+  	  </tbody>
+  	</table>
+  </div>
 </div>
