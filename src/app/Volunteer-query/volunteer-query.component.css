@@ -31,3 +31,23 @@ hr {
 .pull-right a {
 	margin-right: 25px;
 }
+
+h1{
+  color:#008080;
+}
+.logo {
+width: 181px;
+height: 100px;
+}
+
+.nav {
+  border-bottom: 1px solid #000000;
+}
+.navbar {
+ display: inline-block;
+ bottom: 0;
+}
+
+.form-group {
+	margin-top: 20px;
+}
