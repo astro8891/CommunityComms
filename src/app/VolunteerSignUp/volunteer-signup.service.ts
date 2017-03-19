@@ -27,9 +27,12 @@ export class volunteerService {
     putVolunteerDetails(volunteer: volunteer) {
 
 console.log(volunteer);
+volunteer.location = 1
+volunteer.joinedDate = new Date()
+volunteer.skills = 1
 
         this.headers.append('Content-Type', 'application/json');
-        this.http.put(this.url, JSON.stringify(volunteer), {headers: this.headers})
+        this.http.post(this.url, JSON.stringify(volunteer), {headers: this.headers})
         // .map(res => res.json());         
             
         }   
