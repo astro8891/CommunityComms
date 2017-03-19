@@ -28,8 +28,8 @@ export class volunteerService {
 
 console.log(volunteer);
 
-        // this.headers.append('Content-Type', 'application/json');
-        // this.http.put(this.url, JSON.stringify(volunteer), {headers: this.headers})
+        this.headers.append('Content-Type', 'application/json');
+        this.http.put(this.url, JSON.stringify(volunteer), {headers: this.headers})
         // .map(res => res.json());         
             
         }   

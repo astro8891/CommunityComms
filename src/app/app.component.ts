@@ -12,7 +12,6 @@ import { VolunteerListComponent } from './VolunteerList/volunteer-list.component
 
 import { JobListComponent } from './JobList/job-list.component'
 
-
 @Component({
   selector: 'my-app',
   // template:'<router-outlet></router-outlet>'
