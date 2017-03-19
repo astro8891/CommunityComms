@@ -5,9 +5,11 @@ export class volunteer {
     phone: Number;
     email: string;
     joinedDate: Date;
-    location: string;
+    location: Number;
+    locationDescription: string;
     suburb: string;
-    skills: string;
+    skills: Number;
+    skillsDescription: string;
     areasOfInterest: string;
     yearsOfExperience: string;
     levelOfExperience: string;

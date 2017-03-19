@@ -11,6 +11,7 @@ import { OrganisationSignupComponent } from './OrganisationSignup/organisation-s
 import { VolunteerQueryComponent } from './Volunteer-query/volunteer-query.component'
 import { VolunteerListComponent } from './VolunteerList/volunteer-list.component'
 import { JobListComponent } from './JobList/job-list.component'
+import { JobEditComponent } from './JobEdit/job-edit.component'
 
 
 @NgModule({
@@ -22,12 +23,13 @@ import { JobListComponent } from './JobList/job-list.component'
 
   declarations: [
     AppComponent,
-    VolunteerSignupComponent, 
+    VolunteerSignupComponent,
     JobSignupComponent,
-    OrganisationSignupComponent, 
-    VolunteerQueryComponent, 
-    VolunteerListComponent, 
-    JobListComponent
+    OrganisationSignupComponent,
+    VolunteerQueryComponent,
+    VolunteerListComponent,
+    JobListComponent,
+    JobEditComponent
     ],
 
   bootstrap: [

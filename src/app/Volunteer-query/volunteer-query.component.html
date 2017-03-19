@@ -1,28 +1,193 @@
-<form>
-    <div class="form-group">
-        <label for="exampleInputEmail1">ID</label>
-        <input [(ngModel)]="id" type="text" class="form-control" id="exampleInputEmail1" placeholder="id" name="first">
-    </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <div class="form-group">
-        <label for="exampleInputFile">File input</label>
-        <input type="file" id="exampleInputFile">
-        <p class="help-block">Example block-level help text here.</p>
-    </div>
-    <div class="checkbox">
-        <label>
-      <input type="checkbox"> Check me out
-    </label>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-</form>
+<div class= "container">
+<div class="nav">
+  <img class="logo" src="https://files.slack.com/files-pri/T050JETQS-F4LUW9L78/ccc_logo.jpg" alt="Community  Comms">
+  <div class="navbar">
+    <a href="#">Volunteers</a>
+    <a href="#">Jobs</a>
+  </div>
+</div>
+            <!-- Just a placeholder Navigation until final nav is done-->
 
-<div class="">
+<div class="container">
+    <h1>Edit Volunteer</h1>
+<form class="volunteer">
+        <div class="form-group has-danger">
+            <label for="name">Name</label>
+            <input [(ngModel)]="name" name="name" aria-describedby="" class="form-control" id="" placeholder="Enter first and last name"
+                type="text" required="required">
+        </div>
+        <div class="form-group has-danger">
+            <label for="phone">Phone</label>
+            <input [(ngModel)]="phone" aria-describedby="" class="form-control" id="" name="phone" placeholder="123 9854137" type="text"
+                required>
+        </div>
+        <div class="form-group has-danger">
+            <label for="email">Email</label>
+            <input [(ngModel)]="email" aria-describedby="" class="form-control" id="" name="email" placeholder="Enter your email" type="text">            <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+        </div>
+         <div class="form-group has-danger">
+            <label for="yearsOfExperience">Years of experience</label>
+            <select [(ngModel)]="yearsOfExperience" name="level" class="form-control" id="yearsOfExperience">
+                <option value="" disabled="true" [selected]="true">Select your option</option>
+                <option>
+                    0-5 years
+                </option>
+                <option>
+                    5-10 years
+                </option>
+                <option>
+                    10 years
+                </option>
+            </select>
+        </div>
+        <div class="form-group has-danger">
+            <label for="levelExperience">Level of experience</label>
+            <select [(ngModel)]="levelOfExperience" name="level" class="form-control" id="levelExperience">
+                <option value="" disabled="true" [selected]="true">Select your option</option>
+                <option>
+                    Communications student
+                </option>
+                <option>
+                    Recent graduate
+                </option>
+                <option>
+                    Communications assistant/junior advisor
+                </option>
+                <option>
+                    Intermediate advisor
+                </option>
+                <option>
+                    Senior advisor
+                </option>
+                <option>
+                    Manager or director
+                </option>
+            </select>
+        </div>
+        <label>Areas of expertise</label>
+        <div class="form-check">
+            <!-- TODO - pull skills list from server to populate this-->
 
-    <button type="submit" class="btn btn-primary" (click)=getVolunteer()>Submit</button>
+            <label class="form-check-label">
+                <input [(ngModel)]="skills" name="skills" class="form-check-input" type="checkbox" value=""> Writing/editing</label>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Social media</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web strategy</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web usability</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web editing/writing</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> News media</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Strategy</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Coaching/mentoring/managing people</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Planning</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Campaigns</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Social marketing</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Event management</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Internal communication</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Graphic design</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Visual storytelling</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Branding</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Fundraising</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Sponsorship</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Community development</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Change communications</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Accountability/reporting</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Measurement</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Issues management</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Stakeholder engagement</label>
+            </div>
+        </div>
+
+        <div class="form-group has-danger">
+            <label>Areas you want to volunteer in? </label>
+            <p>It is fine for you to want to volunteer to gain more experience in an area you’re less familiar with.</p>
+            <textarea [(ngModel)]="areasOfInterest" name="areasOfInterest" class="form-control" id="areasOfInterest" rows="3"></textarea>
+        </div>
+
+        <div class="form-group has-danger">
+            <label for="whenAvailable">Approximately what time do you have available for volunteering?</label>
+            <p>We offer community organisations a boost – so our assignments are often either a few hours on an ongoing basis
+                (eg mentoring) or more hours for a short period.</p>
+            <select [(ngModel)]="whenAvailable" name="whenAvailable" class="form-control" id="timeOfDayAvailable">
+            <option value="" disabled="true" [selected]="true">Select your option</option>
+            <option>A few hours a week</option>
+            <option>A few hours  a fortnight</option>
+            <option>A few hours a month</option>
+            <option>Able to put more hours in for a short period (eg for a project)</option>    Able to put more hours in for a short period (eg for a project)
+            <option>Able to commit a significant number of hours on an ongoing basis (eg 10 hours a month or more ongoing)</option>
+            <option>Ask me at the time
+            </option>
+            </select>
+        </div>
+        <div class="form-group has-danger">
+            <label for="timeOfDayAvailable">What time of day would suit you to volunteer?</label>
+            <select [(ngModel)]="timeOfDayAvailable" name="timeOfDayAvailable" class="form-control" id="timeOfDayAvailable">
+            <option value="" disabled="true" [selected]="true">Select your option</option>
+            <option>    Within working hours </option>
+            <option>    Outside of work hours</option>
+            <option>    During lunch-breaks</option>
+            <option>    Flexible</option>
+
+            </select>
+        </div>
+        <!-- following questions are optional -->
+        <div class="form-group">
+            <label for="typesOfOrganisationsInterestedIn">Are there any charity types you want to volunteer in/for?</label>
+            <textarea [(ngModel)]="typesOfOrganisationsInterestedIn" name="typesOfOrganisationsInterestedIn"class="form-control" id="typesOfOrganisationsInterestedIn" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="typesOfOrganisationsNotInterestedIn">Are there any you don’t want to volunteer in/for?</label>
+            <textarea [(ngModel)]="typesOfOrganisationsNotInterestedIn" name="typesOfOrganisationsNotInterestedIn" class="form-control" id="typesOfOrganisationsNotInterestedIn" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="suburb">Given neighbourhood charities sometimes request help, you are welcome to also tell us what suburb you live in</label>
+            <textarea [(ngModel)]="suburb" name="suburb" class="form-control" id="suburb" rows="3"></textarea>
+        </div>
+
+    </form>
 </div>
 
 <div class= "container">

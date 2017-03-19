@@ -2,9 +2,11 @@ th {
     background-color: #E6E6E6;
     color: #333333;
 } 
-.table thead>tr>th {
+.table {
    vertical-align: bottom;
    border-bottom: 2px solid hsl(0, 0%, 87%);
+   margin-bottom: 50px;
+   margin-top: 20px;
 }
 
 button {
@@ -28,4 +30,24 @@ hr {
 
 .pull-right a {
 	margin-right: 25px;
+}
+
+h1{
+  color:#008080;
+}
+.logo {
+width: 181px;
+height: 100px;
+}
+
+.nav {
+  border-bottom: 1px solid #000000;
+}
+.navbar {
+ display: inline-block;
+ bottom: 0;
+}
+
+.form-group {
+	margin-top: 20px;
 }
