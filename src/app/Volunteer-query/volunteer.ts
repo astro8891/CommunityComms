@@ -9,7 +9,7 @@ export class volunteer {
     suburb: string;
     skills: string;
     areasOfInterest: string;
-    yearsOfExperience: Number;
+    yearsOfExperience: string;
     levelOfExperience: string;
     whenAvailable: string;
     timeOfDayAvailable: string;
