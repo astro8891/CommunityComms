@@ -20,7 +20,7 @@ button:hover {
 
 
 .banner {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #777;
 }
 
 .active {
@@ -98,4 +98,8 @@ button:hover {
   min-height: 40px;
   min-width: inherit;
   border-top: 0;
+}
+
+.table {
+  border-bottom: 1px solid #777;
 }
