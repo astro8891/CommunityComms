@@ -1,31 +1,93 @@
-th {
-    background-color: #E6E6E6;
-    color: #333333;
-} 
-.table thead>tr>th {
+h1{
+  color:#008080;
+}
+
+.banner {
+  border-bottom: 1px solid #777;
+}
+
+.logo {
+  width: 181px;
+  height: 100px;
+}
+
+.active {
+  color: #F26629 !important;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 0 50px;
+}
+
+.main-content {
+  padding: 50px;
+}
+
+.form-group {
+  margin-top: 30px;
+}
+
+.form-check-container {
+  margin-top: 30px;
+}
+
+.form-check {
+  padding-left: 20px;
+}
+
+.table {
    vertical-align: bottom;
    border-bottom: 2px solid hsl(0, 0%, 87%);
+   margin-bottom: 50px;
+   margin-top: 20px;
+}
+
+th {
+  background-color: #E6E6E6;
+  color: #333333;
+}
+
+a {
+  color: #008080;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #F26629;
+}
+
+hr {
+  width: 100%;
+  border-color: #999999;
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 button {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 10px 30px;
+  padding: 10px 30px;
   color: #ffffff;
   background: #008080;
 }
+
 button:hover{
-  color: #000000;
-  background: #ffffff;
+  color: #fff;
+  background: #004646;
   border-color: #008080;
 }
 
-hr { 
-	width: 100%; 
-	border-color: #999999; 
-	height: 1px; 
-	margin-top: 2px;
-	margin-bottom: 2px;
-}
-
 .pull-right a {
-	margin-right: 25px;
+	/*margin-right: 25px;*/
 }
