@@ -1,31 +1,41 @@
-<div class= "container">
-<div class="nav">
-  <img class="logo" src="https://files.slack.com/files-pri/T050JETQS-F4LUW9L78/ccc_logo.jpg" alt="Community  Comms">
-  <div class="navbar">
-    <a href="#">Volunteers</a>
-    <a href="#">Jobs</a>
-  </div>
-</div>
-            <!-- Just a placeholder Navigation until final nav is done-->
+<div class="container-fluid">
+  <div class="row banner">
 
-<div class="container">
-    <h1>Edit Volunteer</h1>
-<form class="volunteer">
+    <div class="nav-links">
+      <img class="col-xs-3 logo" src="https://files.slack.com/files-pri/T050JETQS-F4LUW9L78/ccc_logo.jpg" alt="CommunityComms Logo"/>
+      <h4 class="nav-link"><a href="#" class="active">Volunteers</a></h4>
+      <h4 class="nav-link"><a href="#">Jobs</a></h4>
+    </div>
+
+  </div>
+              <!-- Just a placeholder Navigation until final nav is done-->
+
+  <div class="main-content">
+
+    <div class="row">
+      <h1 class="page-title">Edit Volunteer</h1>
+    </div>
+
+    <div class="row">
+      <form class="volunteer">
         <div class="form-group has-danger">
             <label for="name">Name</label>
             <input [(ngModel)]="name" name="name" aria-describedby="" class="form-control" id="" placeholder="Enter first and last name"
                 type="text" required="required">
         </div>
+
         <div class="form-group has-danger">
             <label for="phone">Phone</label>
             <input [(ngModel)]="phone" aria-describedby="" class="form-control" id="" name="phone" placeholder="123 9854137" type="text"
                 required>
         </div>
+
         <div class="form-group has-danger">
             <label for="email">Email</label>
             <input [(ngModel)]="email" aria-describedby="" class="form-control" id="" name="email" placeholder="Enter your email" type="text">            <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
         </div>
-         <div class="form-group has-danger">
+
+        <div class="form-group has-danger">
             <label for="yearsOfExperience">Years of experience</label>
             <select [(ngModel)]="yearsOfExperience" name="level" class="form-control" id="yearsOfExperience">
                 <option value="" disabled="true" [selected]="true">Select your option</option>
@@ -40,6 +50,7 @@
                 </option>
             </select>
         </div>
+
         <div class="form-group has-danger">
             <label for="levelExperience">Level of experience</label>
             <select [(ngModel)]="levelOfExperience" name="level" class="form-control" id="levelExperience">
@@ -64,78 +75,104 @@
                 </option>
             </select>
         </div>
-        <label>Areas of expertise</label>
-        <div class="form-check">
+
+        <div class="form-check-container">
+          <label>Areas of expertise</label>
             <!-- TODO - pull skills list from server to populate this-->
 
-            <label class="form-check-label">
+            <div class="form-check">
+              <label class="form-check-label">
                 <input [(ngModel)]="skills" name="skills" class="form-check-input" type="checkbox" value=""> Writing/editing</label>
+            </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Social media</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web strategy</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web usability</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Web editing/writing</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> News media</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Strategy</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Coaching/mentoring/managing people</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Planning</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Campaigns</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Social marketing</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Event management</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Internal communication</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Graphic design</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Visual storytelling</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Branding</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Fundraising</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Sponsorship</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Community development</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Change communications</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Accountability/reporting</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Measurement</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Issues management</label>
             </div>
+
             <div class="form-check">
                 <label class="form-check-label"><input class="form-check-input" type="checkbox" value=""> Stakeholder engagement</label>
             </div>
@@ -162,6 +199,7 @@
             </option>
             </select>
         </div>
+
         <div class="form-group has-danger">
             <label for="timeOfDayAvailable">What time of day would suit you to volunteer?</label>
             <select [(ngModel)]="timeOfDayAvailable" name="timeOfDayAvailable" class="form-control" id="timeOfDayAvailable">
@@ -170,7 +208,6 @@
             <option>    Outside of work hours</option>
             <option>    During lunch-breaks</option>
             <option>    Flexible</option>
-
             </select>
         </div>
         <!-- following questions are optional -->
@@ -178,72 +215,79 @@
             <label for="typesOfOrganisationsInterestedIn">Are there any charity types you want to volunteer in/for?</label>
             <textarea [(ngModel)]="typesOfOrganisationsInterestedIn" name="typesOfOrganisationsInterestedIn"class="form-control" id="typesOfOrganisationsInterestedIn" rows="3"></textarea>
         </div>
+
         <div class="form-group">
             <label for="typesOfOrganisationsNotInterestedIn">Are there any you don’t want to volunteer in/for?</label>
             <textarea [(ngModel)]="typesOfOrganisationsNotInterestedIn" name="typesOfOrganisationsNotInterestedIn" class="form-control" id="typesOfOrganisationsNotInterestedIn" rows="3"></textarea>
         </div>
+
         <div class="form-group">
             <label for="suburb">Given neighbourhood charities sometimes request help, you are welcome to also tell us what suburb you live in</label>
             <textarea [(ngModel)]="suburb" name="suburb" class="form-control" id="suburb" rows="3"></textarea>
         </div>
-
-    </form>
-</div>
-
-<div class= "container">
-
-    <h3>Open Jobs</h3>
-    <div><table class="table table-striped">
-      <thead class="thead-default">
-        <tr>
-          <th>Job Title</th>
-          <th>Charity</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="#">[job name]</a></td>
-          <td>[charity]</td>
-          <td>[open date]</td>
-          <td>[closed date]</td>
-        </tr>
-      </tbody>
-    </table></div>
-</div>
-
-<div class= "container">
-<div class= "top-buffer">
-    <h3>Closed Jobs</h3>
-    <div><table class="table table-striped">
-      <thead class="thead-inverse">
-        <tr>
-          <th>Job Title</th>
-          <th>Charity</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="#">[job name]</a></td>
-          <td>[charity]</td>
-          <td>[open date]</td>
-          <td>[closed date]</td>
-        </tr>
-      </tbody>
-    </table></div>
-</div>
-</div>
-
-<div class= "container">
-<div class= "top-buffer">
-    <hr>
-    <div class="pull-right">
-         <a href="#">Cancel</a> 
-        <button type="submit" class="btn btn-primary">Save</button>
+      </form>
     </div>
-    <hr>
-</div>
+
+
+    <div class="row">
+      <div class="top-buffer col-xs-8">
+        <h3>Open Jobs</h3>
+        <div>
+          <table class="table table-striped">
+            <thead class="thead-default">
+              <tr>
+                <th>Job Title</th>
+                <th>Charity</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">[job name]</a></td>
+                <td>[charity]</td>
+                <td>[open date]</td>
+                <td>[closed date]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="top-buffer col-xs-8">
+        <h3>Closed Jobs</h3>
+        <div><table class="table table-striped">
+          <thead class="thead-inverse">
+            <tr>
+              <th>Job Title</th>
+              <th>Charity</th>
+              <th>Start Date</th>
+              <th>End Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">[job name]</a></td>
+              <td>[charity]</td>
+              <td>[open date]</td>
+              <td>[closed date]</td>
+            </tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="top-buffer">
+          <hr>
+          <div class="pull-right">
+               <a href="#">Cancel</a>
+              <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+          <hr>
+      </div>
+    </div>
+  </div>
 </div>
