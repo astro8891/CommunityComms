@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-import { Job } from './job'
 import { JobEditService } from './job-edit.service'
 
 @Component({

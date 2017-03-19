@@ -9,8 +9,8 @@ import { VolunteerListComponent } from './VolunteerList/volunteer-list.component
 
 //Jobs
 import { JobSignupComponent } from './JobSignup/job-signup.component';
-import { JobListComponent } from './JobList/job-list.component'
-import { JobEditComponent } from './JobEdit/job-edit.component'
+import { JobListComponent } from './JobList/job-list.component';
+import { JobEditComponent } from './JobEdit/job-edit.component';
 
 
 //Orginisations
