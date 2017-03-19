@@ -1,20 +1,39 @@
 .subheader {
   padding: 15px;
   height: 100px;
+  height: auto;
   width:100%;
   background: #E6E6E6;
   border-bottom: 1px solid #000000;
 }
+.banner {
+  border-bottom: 1px solid #777;
+}
 
-.volunteerSkills {
+.logo {
+width: 181px;
+height: 100px;
 }
-.nav {
-  border-bottom: 1px solid #000000;
+
+.nav-links {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
 }
-.navbar {
- display: inline-block;
- bottom: 0;
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
 }
+
+.nav-link {
+  padding: 0 50px;
+}
+
+
+
+
+
 ul  {
   list-style: none;
   padding: 0;
@@ -37,8 +56,4 @@ button:hover{
 }
 h1{
   color:#008080;
-}
-.logo {
-width: 181px;
-height: 100px;
 }

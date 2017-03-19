@@ -28,3 +28,30 @@ button:hover{
 .form-group, .form-control, label {
   margin: 10px 0 0 0;
 }
+.banner {
+  border-bottom: 1px solid #777;
+}
+
+.logo {
+  width: 181px;
+  height: 100px;
+}
+
+.active {
+  color: #F26629 !important;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 0 50px;
+}

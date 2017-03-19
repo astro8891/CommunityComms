@@ -7,7 +7,7 @@ import { jobService } from './job-signup.service'
   moduleId: module.id,
   selector: 'JobSignup',
   templateUrl: 'job-signup.component.html',
-  styleUrls: ['']
+  styleUrls: ['job-signup.component.css']
 })
 
 
