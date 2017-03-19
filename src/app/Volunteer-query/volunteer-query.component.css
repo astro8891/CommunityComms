@@ -27,12 +27,25 @@ h1{
 }
 
 .nav-link {
-  padding: 10px 50px;
+  padding: 0 50px;
 }
 
 .main-content {
   padding: 50px;
 }
+
+.form-group {
+  margin-top: 30px;
+}
+
+.form-check-container {
+  margin-top: 30px;
+}
+
+.form-check {
+  padding-left: 20px;
+}
+
 .table {
    vertical-align: bottom;
    border-bottom: 2px solid hsl(0, 0%, 87%);
@@ -45,6 +58,15 @@ th {
   color: #333333;
 }
 
+a {
+  color: #008080;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #F26629;
+}
+
 hr {
   width: 100%;
   border-color: #999999;
@@ -54,20 +76,18 @@ hr {
 }
 
 button {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 10px 30px;
+  padding: 10px 30px;
   color: #ffffff;
   background: #008080;
 }
+
 button:hover{
-  color: #000000;
-  background: #ffffff;
+  color: #fff;
+  background: #004646;
   border-color: #008080;
 }
 
 .pull-right a {
-	margin-right: 25px;
-}
-
-.form-group {
-	margin-top: 20px;
+	/*margin-right: 25px;*/
 }
