@@ -15,23 +15,25 @@
             <label for="email">Email</label>
             <input [(ngModel)]="email" aria-describedby="" class="form-control" id="" name="email" placeholder="Enter your email" type="text">            <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
         </div>
-        <div class="form-group has-danger">
-            <label for="yearsExperience">Years of experience</label>
-            <select [(ngModel)]="yearsOfExperience" name="years" class="form-control" id="yearsExperience">
-  				<option value="0-5" [selected]="yearsOfExperience == '0-5'">
+         <div class="form-group has-danger">
+            <label for="yearsOfExperience">Years of experience</label>
+            <select [(ngModel)]="yearsOfExperience" name="level" class="form-control" id="yearsOfExperience">
+                <option value="" disabled="true" [selected]="true">Select your option</option>
+  				<option>
   					0-5 years
   				</option>
-  				<option value="5-10">
+  				<option>
   					5-10 years
   				</option>
-  				<option value="10">
-  					10  years
+  				<option>
+  					10 years
   				</option>
   			</select>
         </div>
         <div class="form-group has-danger">
             <label for="levelExperience">Level of experience</label>
             <select [(ngModel)]="levelOfExperience" name="level" class="form-control" id="levelExperience">
+                <option value="" disabled="true" [selected]="true">Select your option</option>
   				<option>
   					Communications student
   				</option>
@@ -144,22 +146,24 @@
             <p>We offer community organisations a boost – so our assignments are often either a few hours on an ongoing basis
                 (eg mentoring) or more hours for a short period.</p>
             <select [(ngModel)]="whenAvailable" name="whenAvailable" class="form-control" id="timeOfDayAvailable">
-  				<option>A few hours a week</option>
-          <option>A few hours  a fortnight</option>
-  <option>A few hours a month</option>
-  <option>Able to put more hours in for a short period (eg for a project)</option>	Able to put more hours in for a short period (eg for a project)
-  <option>Able to commit a significant number of hours on an ongoing basis (eg 10 hours a month or more ongoing)</option>
-  <option>Ask me at the time
-  </option>
+            <option value="" disabled="true" [selected]="true">Select your option</option>
+  		    <option>A few hours a week</option>
+            <option>A few hours  a fortnight</option>
+            <option>A few hours a month</option>
+            <option>Able to put more hours in for a short period (eg for a project)</option>	Able to put more hours in for a short period (eg for a project)
+            <option>Able to commit a significant number of hours on an ongoing basis (eg 10 hours a month or more ongoing)</option>
+            <option>Ask me at the time
+            </option>
   			</select>
         </div>
         <div class="form-group has-danger">
             <label for="timeOfDayAvailable">What time of day would suit you to volunteer?</label>
             <select [(ngModel)]="timeOfDayAvailable" name="timeOfDayAvailable" class="form-control" id="timeOfDayAvailable">
-  				<option>	Within working hours </option>
-  <option>	Outside of work hours</option>
-  <option>	During lunch-breaks</option>
-  <option>	Flexible</option>
+            <option value="" disabled="true" [selected]="true">Select your option</option>
+            <option>	Within working hours </option>
+            <option>	Outside of work hours</option>
+            <option>	During lunch-breaks</option>
+            <option>	Flexible</option>
 
   			</select>
         </div>
