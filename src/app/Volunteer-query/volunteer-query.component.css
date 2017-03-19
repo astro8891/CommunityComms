@@ -2,9 +2,11 @@ th {
     background-color: #E6E6E6;
     color: #333333;
 } 
-.table thead>tr>th {
+.table {
    vertical-align: bottom;
    border-bottom: 2px solid hsl(0, 0%, 87%);
+   margin-bottom: 50px;
+   margin-top: 20px;
 }
 
 button {
