@@ -1,21 +1,22 @@
 export class volunteer {
 
     name: string;
-    id: number;
+    volunteerId: Number;
     phone: Number;
     email: string;
     joinedDate: Date;
-    location: Number;
+    locationId: Number;
     locationDescription: string;
     suburb: string;
-    skills: Number;
+    selectedSkills: Number[];
     skillsDescription: string;
-    areasOfInterest: string;
+    interestedIn: string;
     yearsOfExperience: string;
     levelOfExperience: string;
-    whenAvailable: string;
+    frequencyAvailable: string;
     timeOfDayAvailable: string;
     typesOfOrganisationsInterestedIn: string;
     typesOfOrganisationsNotInterestedIn: string;
     notes: string;
+    available: string;
 }

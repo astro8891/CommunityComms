@@ -138,14 +138,14 @@
         <div class="form-group has-danger">
             <label>Areas you want to volunteer in? </label>
             <p>It is fine for you to want to volunteer to gain more experience in an area you’re less familiar with.</p>
-            <textarea [(ngModel)]="areasOfInterest" name="areasOfInterest" class="form-control" id="areasOfInterest" rows="3"></textarea>
+            <textarea [(ngModel)]="interestedIn" name="interestedIn" class="form-control" id="interestedIn" rows="3"></textarea>
         </div>
 
         <div class="form-group has-danger">
-            <label for="whenAvailable">Approximately what time do you have available for volunteering?</label>
+            <label for="frequencyAvailable">Approximately what time do you have available for volunteering?</label>
             <p>We offer community organisations a boost – so our assignments are often either a few hours on an ongoing basis
                 (eg mentoring) or more hours for a short period.</p>
-            <select [(ngModel)]="whenAvailable" name="whenAvailable" class="form-control" id="timeOfDayAvailable">
+            <select [(ngModel)]="frequencyAvailable" name="frequencyAvailable" class="form-control" id="frequencyAvailable">
             <option value="" disabled="true" [selected]="true">Select your option</option>
   		    <option>A few hours a week</option>
             <option>A few hours  a fortnight</option>

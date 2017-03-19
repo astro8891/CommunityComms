@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, HttpModule, RequestOptions, Headers } from '@angular/http'
-
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/toPromise'
 
 import { volunteer } from './volunteer';
@@ -26,15 +27,20 @@ export class volunteerService {
 
     putVolunteerDetails(volunteer: volunteer) {
 
+// until we get lookups
 console.log(volunteer);
-volunteer.location = 1
-volunteer.joinedDate = new Date()
-volunteer.skills = 1
+volunteer.locationId = 1;
+volunteer.joinedDate = new Date();
+volunteer.selectedSkills = [1];
 
-        this.headers.append('Content-Type', 'application/json');
-        this.http.post(this.url, JSON.stringify(volunteer), {headers: this.headers})
-        // .map(res => res.json());         
-            
+        this.headers.append('Content-Type', 'application/json; charset=UTF-8');
+        console.log(this.headers);
+        let response = this.http.post(encodeURI(this.url), JSON.stringify(volunteer), {headers: this.headers})
+        .map(res => res.json())
+        .subscribe((res) => { console.log(res); })
+
+        // .catch(this.handleError); 
+
         }   
 
     private handleError(error: any): Promise<any> {

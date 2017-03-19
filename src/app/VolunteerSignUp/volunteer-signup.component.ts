@@ -22,20 +22,21 @@ export class VolunteerSignupComponent {
   phone: Number = null;
   email = "";
   joinedDate: Date = null;
-  location: Number = null;
+  locationId: Number = null;
   locationDescription = "";
   suburb = "";
-  skills: Number = null;
+  selectedSkills = new Array<Number>();
   skillsDescription = "";
-  areasOfInterest = "";
+  interestedIn = "";
   yearsOfExperience: "";
   levelOfExperience = "";
-  whenAvailable = "";
+  frequencyAvailable = "";
   timeOfDayAvailable = "";
   typesOfOrganisationsInterestedIn = "";
   typesOfOrganisationsNotInterestedIn = "";
   notes = "";
-  id: number = null;
+  volunteerId: Number = 0;
+  available = "";
 
   doesBindingWork(){
 
@@ -43,18 +44,20 @@ export class VolunteerSignupComponent {
       this._volunteer.phone = this.phone;
       this._volunteer.email = this.email;
       this._volunteer.joinedDate = this.joinedDate;
-      this._volunteer.location = this.location;
+      this._volunteer.locationId = this.locationId;
+      this._volunteer.locationDescription = this.locationDescription;
       this._volunteer.suburb = this.suburb;
-      this._volunteer.skills = this.skills;
-      this._volunteer.areasOfInterest = this.areasOfInterest;
+      this._volunteer.selectedSkills = this.selectedSkills;
+      this._volunteer.skillsDescription = this.skillsDescription;
+      this._volunteer.interestedIn = this.interestedIn;
       this._volunteer.yearsOfExperience = this.yearsOfExperience;
       this._volunteer.levelOfExperience = this.levelOfExperience;
-      this._volunteer.whenAvailable = this.whenAvailable
+      this._volunteer.frequencyAvailable = this.frequencyAvailable
       this._volunteer.timeOfDayAvailable = this.timeOfDayAvailable;
       this._volunteer.typesOfOrganisationsInterestedIn = this.typesOfOrganisationsInterestedIn;
       this._volunteer.typesOfOrganisationsNotInterestedIn = this.typesOfOrganisationsNotInterestedIn;
       this._volunteer.notes = this.notes;
-      this._volunteer.id = this.id;
+      this._volunteer.volunteerId = this.volunteerId;
 
         this._volunteerService.putVolunteerDetails(this._volunteer) 
   }
