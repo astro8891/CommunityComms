@@ -1,12 +1,56 @@
-th {
-    background-color: #E6E6E6;
-    color: #333333;
-} 
+h1{
+  color:#008080;
+}
+
+.banner {
+  border-bottom: 1px solid #777;
+}
+
+.logo {
+  width: 181px;
+  height: 100px;
+}
+
+.active {
+  color: #F26629 !important;
+}
+
+.nav-links {
+  display: flex;
+  align-items: flex-end;
+  height: auto;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 10px 50px;
+}
+
+.main-content {
+  padding: 50px;
+}
 .table {
    vertical-align: bottom;
    border-bottom: 2px solid hsl(0, 0%, 87%);
    margin-bottom: 50px;
    margin-top: 20px;
+}
+
+th {
+  background-color: #E6E6E6;
+  color: #333333;
+}
+
+hr {
+  width: 100%;
+  border-color: #999999;
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 button {
@@ -20,32 +64,8 @@ button:hover{
   border-color: #008080;
 }
 
-hr { 
-	width: 100%; 
-	border-color: #999999; 
-	height: 1px; 
-	margin-top: 2px;
-	margin-bottom: 2px;
-}
-
 .pull-right a {
 	margin-right: 25px;
-}
-
-h1{
-  color:#008080;
-}
-.logo {
-width: 181px;
-height: 100px;
-}
-
-.nav {
-  border-bottom: 1px solid #000000;
-}
-.navbar {
- display: inline-block;
- bottom: 0;
 }
 
 .form-group {
