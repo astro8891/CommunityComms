@@ -25,7 +25,7 @@ export class VolunteerSignupComponent {
   location = "";
   suburb = "";
   skills = "";
-  areasOfInterest = "0-5";
+  areasOfInterest = "";
   yearsOfExperience: "";
   levelOfExperience = "";
   whenAvailable = "";
