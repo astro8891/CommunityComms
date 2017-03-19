@@ -18,7 +18,7 @@
         <div class="form-group has-danger">
             <label for="yearsExperience">Years of experience</label>
             <select [(ngModel)]="yearsOfExperience" name="years" class="form-control" id="yearsExperience">
-  				<option value="0-5">
+  				<option value="0-5" [selected]="yearsOfExperience == '0-5'">
   					0-5 years
   				</option>
   				<option value="5-10">
