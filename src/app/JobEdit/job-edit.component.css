@@ -1,0 +1,11 @@
+h1, h3{
+  color:#008080;
+}
+button{
+  margin: 10px 0 10px 0;
+  background: #008080;
+}
+button:hover{
+  color: #000000;
+  background: #ffffff
+}
