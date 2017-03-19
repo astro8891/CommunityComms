@@ -22,9 +22,11 @@ export class VolunteerSignupComponent {
   phone: Number = null;
   email = "";
   joinedDate: Date = null;
-  location = "";
+  location: Number = null;
+  locationDescription = "";
   suburb = "";
-  skills = "";
+  skills: Number = null;
+  skillsDescription = "";
   areasOfInterest = "";
   yearsOfExperience: "";
   levelOfExperience = "";
